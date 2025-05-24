@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.logo-size{
+    font-size: 48px !important;
+}
+
+.e-book-card {
+    background-color: white;
+    border-radius: 12px; /* Slightly rounded corners */
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    margin: 0px auto 0px auto; /* Optional: centers the card horizontally */
+  }
+
+.header-section{
+    background-color: #12415d;
+    background: url('./assets/img/bg-img01.png');
+    background-size: cover;
+  
+}
+
+
+.about-section{
+
+}
+.discover-section{
+    
+
+  background-color: #12415d;
+
+}
+.image-part{
+
+    /* background: #f0f0f0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.frame {
+    border-top: 10px solid #0d3f66;
+    border-left: 15px solid #0d3f66;
+    border-bottom: 10px solid #0d3f66;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 6px;
+    background-color: white;
+    display: inline-block;
+  }
+
+  .photo {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .inner-frame {
+
+    /* background-color: white; 
+    padding: 6px;
+    border-radius: 16px; */
+ 
+}
+
+
+.primary-color-text{
+    color:#ffffff;
+}
+.secondry-color-text{
+    color: #1efaf7;
+}
+.dark-color-text{
+    color:#0d3f66;
+}
+
+.btn-secondry-color{
+    background-color: #1efaf7 !important;
+    color: #000000 !important;
+}
+.contact-image-part{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.frame-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .main-image {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 4px solid #fff;
+  }
+
+  .inset-image {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border: 4px solid #fff;
+    background: #fff;
+  }
+
+  .inset-image img, .main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
+  }
+  .latest-book-section{
+    text-align: center;
+    background-color: #0d3f66;
+  }
+
+  .book-card {
+    border-radius: 16px;
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
+    overflow: hidden;
+    color: #ffffff;
+  }
+
+  .book-card img {
+    border-radius: 16px;
+    /* border-top-right-radius: 16px; */
+    width: 100%;
+    height: auto;
+    
+    background-color: #ffffff;
+  }
+
+  .book-title {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+.book-format{
+    color:#fff;
+}
+  .book-format, .book-price {
+    font-size: 0.95rem;
+  }
+
+  .faq-image{
+    display: flex;
+    justify-content: center;
+  }
+
+  /*  */
+  /*  */
+  .accordion-button {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #002244;
+    background-color: white;
+    border-bottom: 2px solid #000;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+  }
+
+  .accordion-button::after {
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-body {
+    font-size: 0.95rem;
+    /* color: #6c757d; */
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .accordion-item {
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .accordion {
+    /* max-width: 600px; */
+    margin: auto;
+  }
+
+  .testimonial-section{
+    background-color: #002244;
+    background-image: url('./assets/img/bg-img02.png');
+    background-size: cover;
+  }
+
+
+
+
+  /*  */
+
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .form-control::placeholder {
+    color: #999;
+  }
+  .btn-custom {
+    background-color: #002f4b;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  .btn-custom:hover {
+    background-color: #001f33;
+  }
+
+
+  /*  */
+  /*  */
+  .footer-section{
+    background-color: #002244;
+    background-image: url("./assets/img/bg-img03.png");
+    background-size: cover;
+  }
+
+  .footer-brand{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 25px 20px;
+
+  }
+
+  .footer-btn-part{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+   
+  }
+
+  .footer-bottom {
+    background-color:#34a9ff;
+    color: #fff;
+  }
+
+  .footer-bottom{
+    display: flex;
+    align-items: center;
+    
+    padding: 20px 10px;
+  }
+  .pipe{
+    width: 2%;
+    line-height: 1;
+  }
+
+  .condition{
+    width: 20%;
+    padding-left: 4px;
+    line-height: 1;
+  }
+  .privacy{
+    width: 16%;
+    line-height: 1;
+    /* padding: 20px 10px; */
+  }
+
+  .copyright{
+    width: 62%;
+    line-height: 1;
+    /* padding: 20px 10px; */
+  }
+
+
+
+  .sm-heading{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  }
+  .display-6{
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  }
+
+
+  .lg-heading{
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  h1{
+    font-family: 'Montserrat', sans-serif !important; 
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif !important;
+    line-height: 1.2;
+  }
+  .accordion-button{
+    
+    font-family: 'Montserrat', sans-serif !important; 
+  }
+
+  .accordion-body{
+    
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  body{
+    
+    font-family: 'Poppins', sans-serif ;
+  }
